@@ -1,0 +1,521 @@
+/* ---------------------------EARNINGS CALCULATOR SECTION --------------------------------- */
+
+.calculator-container {
+    display: flex;
+
+}
+
+.calculator-container strong {
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.calculator-text {
+    margin: 3rem 4rem 0rem 1rem;
+    padding: 0rem 1rem;
+    width: 525px;
+}
+
+.calculator-text h1 {
+    color: #c0c0c0;
+    letter-spacing: 0.1rem;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calculator-text h3 {
+    font-size: 75px;
+    margin: 0;
+    line-height: 0px;
+    margin-bottom: 4rem;
+}
+
+.calculator-text p {
+    font-size: 15px;
+    margin-top: 3rem;
+}
+
+.calculator h1,h2 {
+    color: #c0c0c0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calculator h2 {
+    font-size: 20px;
+}
+
+.calculator-text, .calculator span {
+    color: #c0c0c0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 1rem 1rem 0rem 4rem;
+    padding: 1rem 1rem;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.2);
+    transition: 0.6s;
+}
+
+.calculator:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.input-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text strong {
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+.calculator input {
+    background-color: #000;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #c0c0c0;
+    border-radius: 5px;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    margin-left: 1.3rem;
+}
+
+.calculator select {
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    background-color:rgba(255, 255, 255, 0.5);
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.calculator button {
+	margin-top: 1rem;
+    border: 2px solid rgb(41, 134, 176);
+    padding: 0.5rem 3rem;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+   border-radius: 1rem;
+   transition-duration: 0.6s;
+   cursor: pointer;
+   color: #DCDCDC;
+   font-size: 1rem;
+   margin-bottom: 1rem;
+   font-weight: bold;
+   letter-spacing: 2px;
+}
+
+.calculator button:hover {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0.5rem 4rem;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.calculator span {
+    font-size: 27px;
+}
+
+.calculator img {
+    height: 30px;
+    width: 30px;
+}
+
+.calculator option {
+    background-color: rgba(14, 14, 14, 1);
+    color: #8f8f8f;
+}
+
+/* ---------------------------EARNINGS CALCULATOR SECTION END --------------------------------- */
+
+/*-------------------------------------DESCRIPTION BANNER -------------------------------*/
+
+.gradient-text {
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+
+.description-banner {
+    display: grid;
+    row-gap: 50px;
+    column-gap: auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+    padding: 3rem 0;
+    margin-bottom: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description-banner img {
+    height: 50px;
+    width: 50px;
+}
+
+.banner-card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem 5rem;
+    margin: 0 2rem;
+    border-radius: 7px;
+    color: #c0c0c0;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.6s;
+}
+
+.banner-card-2:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #c0c0c0;
+}
+
+.banner-card-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem 3rem;
+    margin: 0 2rem;
+    border-radius: 7px;
+    color: #c0c0c0;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.6s;
+}
+
+.banner-card-3:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #c0c0c0;
+}
+
+.banner-card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem 3rem;
+    margin: 0 2rem;
+    border-radius: 7px;
+    color: #c0c0c0;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.6s;
+}
+
+
+.banner-card-4:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #c0c0c0;
+}
+
+.banner-card-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem 3rem;
+    margin: 0 2rem;
+    border-radius: 7px;
+    color: #c0c0c0;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.6s;
+}
+
+.banner-card-5:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #c0c0c0;
+}
+
+
+select {
+        color: #c0c0c0;
+        background-color:rgb(26 32 53);
+        width: 60%;
+        height: 25px;
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 16px;
+        border-radius: 5px;
+        box-shadow: 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.calculator button {
+	margin-top: 1rem;
+    border: 2px solid rgb(41, 134, 176);
+    padding: 0.5rem 3rem;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+   border-radius: 1rem;
+   transition-duration: 0.6s;
+   cursor: pointer;
+   color: #DCDCDC;
+   font-size: 1rem;
+   margin-bottom: 1rem;
+   font-weight: bold;
+   letter-spacing: 2px;
+}
+
+.calculator button:hover {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0.5rem 4rem;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.banner-card-2 button {
+        margin-top: 1rem;
+        border: 2px solid rgb(41, 134, 176);
+        padding: 0.5rem 3rem;
+       border-radius: 2px;
+       transition-duration: 0.6s;
+       cursor: pointer;
+       background-color: #1572e8;
+       color: white;
+       font-size: 1rem;
+       margin-bottom: 1rem;
+       letter-spacing: 2px;
+    }
+    
+.banner-card-2 button:hover {
+        border: 2px solid rgb(255, 255, 255);
+        padding: 0.5rem 3rem;
+        background-image: linear-gradient(
+            to right top,
+            #051937,
+            #004d7a,
+            #008793,
+            #00bf72,
+            #a8eb12
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+        border-radius: 2px;
+    }
+
+    .form-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    
+    .form-text {
+        margin: 3rem 4rem 0rem 1rem;
+        padding: 0rem 1rem;
+        width: 525px;
+        text-align: center;
+    }
+    
+    .form-text h1 {
+        color: #fff;
+        letter-spacing: 0.1rem;
+        font-size: 35px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .form-text h3 {
+        font-size: 60px;
+        margin: 0;
+        line-height: 0px;
+        margin-bottom: 4rem;
+    }
+    
+    .form-text p {
+        font-size: 15px;
+        margin-top: 3rem;
+        color: #fff;
+    }
+    
+    .form-text strong {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .contact-form {
+        border: 1px solid #c0c0c0;
+        width: 600px;
+        border-radius: 5px;
+        margin-bottom: 2rem;
+    }
+    
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        align-items: center;
+        transition: 0.6s;
+        border-radius: 15px;
+    }
+    
+    
+    .contact-form form h2 {
+        margin-bottom: 1rem;
+        margin-top: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #fff;
+    }
+    
+    .contact-form label {
+
+        text-decoration: none;
+        margin: 0.5rem 0rem;
+    }
+    
+    .contact-form input {
+        background-color: #151a2a;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-bottom: 1.5rem;
+    }
+    
+    
+    .contact-form textarea {
+        height: 300px;
+        color: #fff;
+        background-color: #151a2a;
+        text-decoration: none;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    .contact-form button {
+        border: 2px solid rgb(17, 76, 89);
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        width: 50%;
+        background-color: #1572e8; 
+        padding: 0.5rem 1.5rem;
+        text-decoration: none;
+       border-radius: 2px;
+       transition-duration: 0.6s;
+       cursor: pointer;
+       color: #ffffff;
+       font-size: 1rem;
+       font-weight: bold;
+       letter-spacing: 2px;
+    }
+    
+    .contact-form button:hover {
+        border: 1px solid rgb(255, 255, 255);
+        padding: 0.5rem 1.5rem;
+        background-color: #367dda;
+        text-decoration: none;
+        border-radius: 2px;
+    }
+
+    .message-success {
+        margin-top: 1rem;
+        background: rgba(0, 255, 0, 0.5);
+        padding: 0 2rem;
+        border-radius: 5px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .message-success p {
+        color: #fff;
+    }
